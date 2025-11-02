@@ -1,49 +1,49 @@
 export const features = [
     {
         id: "0",
-        title: "Scalable Infrastructure",
+        title: "Unlimited Products",
         content:
-            "Scale effortlessly to meet growing demands with our flexible and robust infrastructure.Scale effortlessly to meet growing demands with our flexible and robust infrastructure.",
+            "Scale your product catalog without limits. Add unlimited products, variants, and collections to grow your store effortlessly.",
         image: "/images/scalable-infructstructure.svg",
         color: "#CABDFF",
     },
     {
         id: "1",
-        title: "Real-time Analytics",
+        title: "Sales Analytics",
         content:
-            "Get instant insights into your data with real-time analytics, empowering data-driven decision-making.",
+            "Track your store performance with real-time sales data, customer insights, and conversion metrics to optimize your business.",
         image: "/images/analytics.svg",
         color: "#B5E4CA",
     },
     {
         id: "2",
-        title: "Advanced Security",
+        title: "Secure Payments",
         content:
-            "Rest easy knowing your data is protected with top-of-the-line security measures.",
+            "Accept payments confidently with PCI-compliant checkout, fraud protection, and support for all major payment methods.",
         image: "/images/security.svg",
         color: "#FFBC99",
     },
     {
         id: "3",
-        title: "Intuitive Interface",
+        title: "Easy Store Builder",
         content:
-            "Enjoy a user-friendly and intuitive interface for seamless navigation and boost productivity.",
+            "Create a stunning online store with our drag-and-drop builder. No coding required, mobile-responsive designs included.",
         image: "/images/interface.svg",
         color: "#B1E5FC",
     },
     {
         id: "4",
-        title: "24/7 Support",
+        title: "Expert Support",
         content:
-            "Receive round-the-clock support from our dedicated team to ensure a smooth experience.",
+            "Get help whenever you need it with 24/7 customer support from our eCommerce specialists via chat, email, and phone.",
         image: "/images/support.svg",
         color: "#FFA7FB",
     },
     {
         id: "5",
-        title: "Automated Workflows",
+        title: "Marketing Tools",
         content:
-            "Optimize your processes with automated workflows, saving time and reducing manual errors.",
+            "Grow your sales with built-in SEO, email campaigns, discount codes, and social media integrations to reach more customers.",
         image: "/images/workflow.svg",
         color: "#FFD88D",
     },

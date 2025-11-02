@@ -35,35 +35,12 @@ const Download = ({ scrollToRef }: DownloadProps) => {
                     ref={scrollToRef}
                 ></div>
                 <h2 className="mb-4 text-h2 lg:mb-3 md:mb-2">
-                    Ready to Start?
+                    Ready to Start Selling?
                 </h2>
                 <div className="mb-10 text-body-xl text-secondary">
-                    Get an easiest access and download now.
+                    Launch your online store today. No credit card required.
                 </div>
-                <div className="flex max-w-[20.75rem] mx-auto mb-10 space-x-4">
-                    {downloadOptions.map((button) => (
-                        <button
-                            className={twMerge(
-                                `flex flex-col items-center flex-1 px-4 py-6 rounded-2xl border transition-all hover:bg-surface-dark2 tap-highlight-color dark:hover:bg-dark-surface-dark2 ${
-                                    activeId === button.id
-                                        ? "border-surface-brand !bg-[#3C4249] shadow-[0_0_0.8125rem_0.1875rem_rgba(42,133,255,.5)]"
-                                        : "border-transparent"
-                                }`
-                            )}
-                            key={button.id}
-                            onClick={() => setActiveId(button.id)}
-                        >
-                            <Icon
-                                className="w-5 h-5 mb-4 fill-white"
-                                name={button.icon}
-                            />
-                            <div className="leading-6 font-semibold">
-                                {button.title}
-                            </div>
-                        </button>
-                    ))}
-                </div>
-                <button className="btn">Download Now</button>
+                <button className="btn">Start Your Free Trial</button>
             </div>
         </div>
     );

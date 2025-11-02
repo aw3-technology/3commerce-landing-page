@@ -15,18 +15,18 @@ const Logo = ({ className }: LogoProps) => {
         >
             <Image
                 className="w-full opacity-100 hidden dark:block"
-                src="/images/logo-light.svg"
+                src="/images/logo-light.png"
                 width={48}
                 height={48}
-                alt="Synapse"
+                alt="3Commerce"
                 priority
             />
             <Image
                 className="w-full opacity-100 dark:hidden"
-                src="/images/logo-dark.svg"
+                src="/images/logo-dark.png"
                 width={48}
                 height={48}
-                alt="Synapse"
+                alt="3Commerce"
                 priority
             />
         </Link>
