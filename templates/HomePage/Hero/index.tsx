@@ -17,20 +17,26 @@ const Hero = ({}: HeroProps) => {
                 <Link href="https://app.3commerce.com/sign-in" className="btn">Start Selling Today</Link>
             </div>
             <div className="max-w-[82rem] mx-auto aspect-[1.665] overflow-hidden lg:aspect-[1.55] md:aspect-[1.41]">
-                <Image
-                    className="w-full dark:hidden"
-                    width={1313}
-                    height={1562}
-                    src="/images/hero-pic-light.png"
-                    alt=""
-                />
-                <Image
-                    className="hidden w-full dark:block"
-                    width={1313}
-                    height={1562}
-                    src="/images/hero-pic-dark.png"
-                    alt=""
-                />
+                <picture className="w-full dark:hidden">
+                    <source srcSet="/images/hero-pic-light.webp" type="image/webp" />
+                    <Image
+                        className="w-full"
+                        width={2152}
+                        height={2560}
+                        src="/images/hero-pic-light.png"
+                        alt=""
+                    />
+                </picture>
+                <picture className="hidden w-full dark:block">
+                    <source srcSet="/images/hero-pic-dark.webp" type="image/webp" />
+                    <Image
+                        className="w-full"
+                        width={2179}
+                        height={2560}
+                        src="/images/hero-pic-dark.png"
+                        alt=""
+                    />
+                </picture>
             </div>
         </div>
     );
