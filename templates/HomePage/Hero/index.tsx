@@ -14,7 +14,7 @@ const Hero = ({}: HeroProps) => {
                     Launch and scale your eCommerce business with our powerful platform.
                     Manage inventory, process payments, and grow your sales all in one place.
                 </div>
-                <Link href="https://app.3commerce.com/sign-up" className="btn">Start Selling Today</Link>
+                <Link href="https://app.3commerce.com/sign-in" className="btn">Start Selling Today</Link>
             </div>
             <div className="max-w-[82rem] mx-auto aspect-[1.665] overflow-hidden lg:aspect-[1.55] md:aspect-[1.41]">
                 <Image
