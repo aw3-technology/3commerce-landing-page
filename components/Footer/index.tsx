@@ -32,7 +32,7 @@ const Footer = ({}: FooterProps) => (
             <div className="flex items-center md:flex-col">
                 <Socials />
                 <div className="ml-auto text-sm leading-6 font-medium text-secondary md:ml-0 md:mt-6">
-                    @ 2023 Symbol, Inc. All rights reserved
+                    © 2025 AW3 Technology, Inc. All rights reserved
                 </div>
             </div>
         </div>
