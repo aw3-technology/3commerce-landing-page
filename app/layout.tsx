@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Saas landing",
-    description: "Production-ready SaaS landing page template",
+    title: "3Commerce - Build Your Online Store in Minutes",
+    description: "Launch and scale your eCommerce business with our powerful platform. Manage inventory, process payments, and grow your sales all in one place.",
 };
 
 export default function RootLayout({
@@ -24,68 +24,33 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 {/* Description no longer than 155 characters */}
-                <meta name="description" content="Symbol" />
+                <meta name="description" content="Launch and scale your eCommerce business with 3Commerce. Manage inventory, process payments, and grow your sales all in one place." />
                 {/* Product Name */}
-                <meta name="product-name" content="Symbol" />
+                <meta name="product-name" content="3Commerce" />
                 {/* Twitter Card data */}
-                <meta name="twitter:card" content="summary" />
-                <meta name="twitter:site" content="@ui8" />
-                <meta name="twitter:title" content="Symbol" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="3Commerce - Build Your Online Store in Minutes" />
                 <meta
                     name="twitter:description"
-                    content="Production-ready SaaS landing page template"
+                    content="Launch and scale your eCommerce business with our powerful platform. Manage inventory, process payments, and grow your sales all in one place."
                 />
-                <meta name="twitter:creator" content="@ui8" />
                 {/* Twitter Summary card images must be at least 120x120px */}
                 <meta
                     name="twitter:image"
-                    content="%PUBLIC_URL%/twitter-card.png"
+                    content="/og-image.png"
                 />
-                {/* Open Graph data for Facebook */}
-                <meta property="og:title" content="Symbol" />
-                <meta property="og:type" content="Article" />
-                <meta
-                    property="og:url"
-                    content="https://ui8.net/rudee/products/symbol-saas-platform-landing-page"
-                />
+                {/* Open Graph data */}
+                <meta property="og:title" content="3Commerce - Build Your Online Store in Minutes" />
+                <meta property="og:type" content="website" />
                 <meta
                     property="og:image"
-                    content="%PUBLIC_URL%/fb-og-image.png"
+                    content="/og-image.png"
                 />
                 <meta
                     property="og:description"
-                    content="Production-ready SaaS landing page template"
+                    content="Launch and scale your eCommerce business with our powerful platform. Manage inventory, process payments, and grow your sales all in one place."
                 />
-                <meta property="og:site_name" content="Symbol" />
-                <meta property="fb:admins" content="132951670226590" />
-                {/* Open Graph data for LinkedIn */}
-                <meta property="og:title" content="Symbol" />
-                <meta
-                    property="og:url"
-                    content="https://ui8.net/rudee/products/symbol-saas-platform-landing-page"
-                />
-                <meta
-                    property="og:image"
-                    content="%PUBLIC_URL%/linkedin-og-image.png"
-                />
-                <meta
-                    property="og:description"
-                    content="Production-ready SaaS landing page template"
-                />
-                {/* Open Graph data for Pinterest */}
-                <meta property="og:title" content="Symbol" />
-                <meta
-                    property="og:url"
-                    content="https://ui8.net/rudee/products/symbol-saas-platform-landing-page"
-                />
-                <meta
-                    property="og:image"
-                    content="%PUBLIC_URL%/pinterest-og-image.png"
-                />
-                <meta
-                    property="og:description"
-                    content="Production-ready SaaS landing page template"
-                />
+                <meta property="og:site_name" content="3Commerce" />
             </head>
             <body
                 className={`${inter.variable} bg-surface-primary font-sans text-base text-primary antialiased dark:bg-gray-800 dark:text-dark-primary`}
