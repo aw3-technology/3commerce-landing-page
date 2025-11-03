@@ -4,22 +4,22 @@ export const socials = [
     {
         id: "0",
         icon: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://x.com/aw3_xyz",
     },
     {
         id: "1",
         icon: "instagram",
-        url: "https://instagram.com/ui8net/",
+        url: "https://x.com/aw3_xyz",
     },
     {
         id: "2",
         icon: "twitter",
-        url: "https://twitter.com/ui8",
+        url: "https://x.com/aw3_xyz",
     },
     {
         id: "3",
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/ui8",
+        url: "https://x.com/aw3_xyz",
     },
 ];
 
