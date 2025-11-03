@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import Icon from "@/components/Icon";
+import Link from "next/link";
 
 const downloadOptions = [
     {
@@ -40,7 +41,7 @@ const Download = ({ scrollToRef }: DownloadProps) => {
                 <div className="mb-10 text-body-xl text-secondary">
                     Launch your online store today. No credit card required.
                 </div>
-                <button className="btn">Start Your Free Trial</button>
+                <Link href="https://app.3commerce.com/sign-in" className="btn">Start Your Free Trial</Link>
             </div>
         </div>
     );

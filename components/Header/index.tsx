@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { twMerge } from "tailwind-merge";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import Link from "next/link";
 import Logo from "@/components/Logo";
 import ToggleTheme from "@/components/ToggleTheme";
 import Socials from "@/components/Socials";
@@ -77,9 +78,9 @@ const Header = ({ navigation }: HeaderProps) => {
                     <Socials className="hidden lg:flex lg:mt-auto lg:!space-x-6" />
                 </div>
                 <ToggleTheme />
-                <button className="btn-stroke ml-4 md:hidden">
-                    Call To Action
-                </button>
+                <Link href="https://app.3commerce.com/sign-in" className="btn-stroke ml-4 md:hidden">
+                    Sign In
+                </Link>
                 <button
                     className={`hidden relative z-20 flex-col justify-center items-start w-14 h-14 px-[1.1875rem] ml-4 border border-borderColor rounded-full tap-highlight-color before:w-4 before:h-0.5 before:bg-primary before:rounded-full after:bg-primary before:transition-all after:w-2 after:h-0.5 after:rounded-full after:transition-all lg:flex md:w-13 md:h-13 md:px-[1.0625rem] dark:border-dark-borderColor dark:before:bg-dark-primary dark:after:bg-dark-primary ${
                         visible
