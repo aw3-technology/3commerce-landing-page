@@ -7,7 +7,7 @@ import Clients from "./Clients";
 import Features from "./Features";
 import Pricing from "./Pricing";
 import Faq from "./Faq";
-import Reviews from "./Reviews";
+// import Reviews from "./Reviews";
 import Download from "./Download";
 import Newsletter from "./Newsletter";
 
@@ -47,7 +47,7 @@ const HomePage = () => {
             <Features scrollToRef={scrollToFeatures} />
             <Pricing scrollToRef={scrollToPricing} />
             <Faq scrollToRef={scrollToFaq} />
-            <Reviews />
+            {/* <Reviews /> */}
             <Download scrollToRef={scrollToDownload} />
             <Newsletter />
         </Layout>

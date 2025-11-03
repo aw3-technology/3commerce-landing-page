@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "@/components/Logo";
 import ToggleTheme from "@/components/ToggleTheme";
 import Socials from "@/components/Socials";
@@ -11,22 +12,18 @@ const Footer = ({}: FooterProps) => (
                 <Logo className="mr-3 md:mr-0 md:mb-6" />
                 <ToggleTheme className="border-borderColor md:mb-6 dark:border-dark-borderColor" />
                 <div className="flex space-x-4 ml-auto md:ml-0">
-                    <a
+                    <Link
                         className="text-sm leading-6 font-medium text-primary transition-colors hover:!text-surface-brand dark:text-dark-primary"
-                        href="https://ui8.net/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="/privacy"
                     >
                         Privacy Policy
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="text-sm leading-6 font-medium text-primary transition-colors hover:!text-surface-brand dark:text-dark-primary"
-                        href="https://ui8.net/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="/terms"
                     >
                         Terms of Service
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="flex items-center md:flex-col">
